@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">clock\'ON</string>
+    <string name="non_inscrit">Non Inscrit ?</string>
+
+    <string name="inscrire">S\'inscrire ?</string>
+
+    <string name="deja_inscrit">Déjà Inscrit ?</string>
+
+    <string name="login2">Se connecter </string>
+
+    <string name="s_inscrire">S\'inscrire</string>
+    <string name="cnsProg">Consulter les programmes</string>
+    <string name="temp">Saisir la température</string>
+    <string name="contact">Consulter le répertoire</string>
+    <string name="ajoutProg">Ajouter un programme</string>
+    <string name="cnsMed">Consulter les medecins les plus proches</string>
+    <string name="long_dummy_text">Vous avez un medicament à prendre .</string>
+
+    <string name="title_activity_maps2">Map</string>
+    <string-array name="spinner_item">
+        <item>Médecin</item>
+        <item>Patient</item>
+
+    </string-array>
+
+    <string-array name="spDuree">
+        <item>Jour(s)</item>
+        <item>Semaine(s)</item>
+        <item>Mois</item>
+        <item>Année</item>
+
+    </string-array>
+
+    <string-array name="sptype">
+        <item>comprimé(s)</item>
+        <item>Gélules</item>
+        <item>ml</item>
+        <item>cl</item>
+        <item>gr</item>
+        <item>suppositoire(s)</item>
+
+
+    </string-array>
+
+</resources>

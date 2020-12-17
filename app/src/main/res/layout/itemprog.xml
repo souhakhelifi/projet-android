@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="79dp"
+            android:layout_height="77dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/notebook1" />
+
+        <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="10dp"
+            android:orientation="vertical"
+        android:padding="10dp">
+
+            <TextView
+                android:id="@+id/txtmaladie"
+                android:layout_width="473dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="casual"
+                android:text=""
+                android:textColor="@android:color/black"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/txtduree"
+                android:layout_width="481dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/txtdatedeb"
+                android:layout_width="481dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/txtnump"
+                android:layout_width="481dp"
+                android:layout_height="7dp"
+                android:layout_weight="1"
+                android:visibility="invisible"
+
+                />
+    </LinearLayout>
+
+</LinearLayout>

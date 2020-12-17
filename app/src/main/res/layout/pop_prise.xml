@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:isScrollContainer="true">
+
+
+    <TextView
+        android:id="@+id/spinner"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:ems="10"/>
+
+
+    <EditText
+        android:id="@+id/txtdescr"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:layout_gravity="center"
+        android:inputType="textPersonName"
+        android:hint="Description" />
+
+    <EditText
+        android:id="@+id/datePicker1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:hint="Date" />
+
+    <EditText
+        android:id="@+id/txtheure"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:layout_gravity="center"
+        android:hint="Heure"
+        android:inputType="text" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="50dp">
+        <EditText
+            android:id="@+id/txtqte"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="70dp"
+            android:layout_gravity="left"
+            android:inputType="textPersonName"
+            android:hint="Quantité" />
+        <Spinner
+            android:id="@+id/sptype"
+            android:layout_width="150dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+            android:entries="@array/sptype"
+            android:layout_gravity="right"
+            android:layout_height="50dp"></Spinner>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnajout"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:text="Ajouter" />
+
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="79dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/tablet1" />
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:layout_marginBottom="5dp"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/txtRef"
+            android:layout_width="282dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/txtdate"
+            android:layout_width="278dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/txtduree"
+            android:layout_width="287dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

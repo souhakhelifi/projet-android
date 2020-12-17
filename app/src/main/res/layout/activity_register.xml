@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+    tools:context=".Login.RegisterActivity"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_height="114dp"
+        android:layout_width="110dp"
+        app:srcCompat="@mipmap/icon"
+        android:layout_marginTop="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageView"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="180dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/loginr"
+        android:textColor="@android:color/darker_gray"
+        android:inputType="textPersonName"
+        android:hint="Login"
+        android:ems="10"/>
+
+    <EditText
+        android:id="@+id/mdpr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="Mot de passe"
+        android:inputType="textPassword"
+        android:textColor="@android:color/darker_gray" />
+
+    <EditText
+        android:id="@+id/mdpr2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="Répéter le mot de passe"
+        android:inputType="textPassword"
+        android:textColor="@android:color/darker_gray" />
+
+    <EditText
+        android:id="@+id/nom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="Nom"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/darker_gray" />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="340dp"
+        android:ems="10"
+        android:hint="Age"
+        android:inputType="number"
+        android:textColor="@android:color/darker_gray" />
+    <Spinner
+        android:id="@+id/spprofil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/darker_gray"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="380dp"
+        android:entries="@array/spinner_item"
+        android:text="Profil"></Spinner>
+
+    <Button
+        android:id="@+id/buttonreg"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="420dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimary"
+        android:text="@string/s_inscrire"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="500dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="@string/deja_inscrit" />
+        <TextView
+            android:layout_height="35dp"
+            android:layout_width="wrap_content"
+            android:id="@+id/tv_login"
+            android:textColor="#050a00"
+            android:textStyle="bold"
+            android:text="@string/login2"
+            android:paddingLeft="10dp"/>
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

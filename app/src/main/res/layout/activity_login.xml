@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:visibility="visible"
+    tools:context=".Login.LoginActivity">
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="114dp"
+        app:srcCompat="@mipmap/icon"
+        android:layout_marginTop="57dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageView"/>
+
+    <EditText
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="202dp"
+        android:drawableLeft="@drawable/l1"
+        android:ems="10"
+        android:hint="  Login"
+        android:layout_centerHorizontal="true"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/darker_gray" />
+
+    <EditText
+        android:id="@+id/mdp"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginTop="250dp"
+        android:drawableLeft="@drawable/mdp2"
+        android:ems="10"
+        android:layout_centerHorizontal="true"
+        android:hint="  Mot de passe"
+        android:inputType="textPassword"
+        android:textColor="@android:color/darker_gray" />
+
+    <Button
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/button"
+        android:textColor="@color/white"
+        android:layout_marginTop="350dp"
+        android:textStyle="bold"
+        android:text="@string/login2"/>
+
+
+    -<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="420dp"
+    android:layout_centerHorizontal="true"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:text="@string/non_inscrit"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:id="@+id/textview_register"
+        android:textColor="#050a00"
+        android:textStyle="bold"
+        android:text="@string/inscrire"
+        android:paddingLeft="5dp"/>
+
+</LinearLayout>
+
+</RelativeLayout>

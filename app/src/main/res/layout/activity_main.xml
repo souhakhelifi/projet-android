@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arriere"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="21dp"
+        android:fontFamily="monospace"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Bienvenue!"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#009688" />
+    <Button
+        android:id="@+id/btncns"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/cnsProg"
+        android:drawableLeft="@drawable/notebook"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        />
+    <Button
+        android:id="@+id/btnAjMed"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@color/colorPrimary"
+        android:text="Ajouter un médicament"
+        android:textColor="@color/white"
+        android:drawableLeft="@drawable/tablet"
+        android:textStyle="bold"></Button>
+    <Button
+        android:id="@+id/btnTemp"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/temp"
+        android:textColor="@color/white"
+        android:drawableLeft="@drawable/temperature"
+        android:textStyle="bold"></Button>
+
+    <Button
+        android:id="@+id/btnCon"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/contact"
+        android:textColor="@color/white"
+        android:drawableLeft="@drawable/ambulance"
+        android:textStyle="bold"></Button>
+
+    <Button
+        android:id="@+id/btnAjout"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/ajoutProg"
+        android:drawableLeft="@drawable/notebook"
+        android:textColor="@color/white"
+        android:textStyle="bold"></Button>
+
+    <Button
+        android:id="@+id/btnMed"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/cnsMed"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/geography"></Button>
+
+
+
+
+</LinearLayout>
